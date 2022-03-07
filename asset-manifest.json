@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mostafashabanelbanna.github.io/static/css/main.56e6221f.css",
-    "main.js": "/mostafashabanelbanna.github.io/static/js/main.4f36320d.js",
-    "static/js/787.68291eb7.chunk.js": "/mostafashabanelbanna.github.io/static/js/787.68291eb7.chunk.js",
-    "static/media/library.png": "/mostafashabanelbanna.github.io/static/media/library.f058e501296181d8e019.png",
-    "static/media/popc.PNG": "/mostafashabanelbanna.github.io/static/media/popc.775d07a40bae11496119.PNG",
-    "static/media/aswan.png": "/mostafashabanelbanna.github.io/static/media/aswan.897d5ff1c3310c8823b2.png",
-    "static/media/idsc.png": "/mostafashabanelbanna.github.io/static/media/idsc.8884b682c220585ccd33.png",
-    "static/media/tbv.png": "/mostafashabanelbanna.github.io/static/media/tbv.a0bc59b072d74e873fdc.png",
-    "static/media/agriprice.png": "/mostafashabanelbanna.github.io/static/media/agriprice.76f9061b8a8b5f62d465.png",
-    "static/media/kms.PNG": "/mostafashabanelbanna.github.io/static/media/kms.2274d4c65f854de98f5c.PNG",
-    "index.html": "/mostafashabanelbanna.github.io/index.html",
-    "main.56e6221f.css.map": "/mostafashabanelbanna.github.io/static/css/main.56e6221f.css.map",
-    "main.4f36320d.js.map": "/mostafashabanelbanna.github.io/static/js/main.4f36320d.js.map",
-    "787.68291eb7.chunk.js.map": "/mostafashabanelbanna.github.io/static/js/787.68291eb7.chunk.js.map"
+    "main.css": "/static/css/main.56e6221f.css",
+    "main.js": "/static/js/main.79a4318a.js",
+    "static/js/787.68291eb7.chunk.js": "/static/js/787.68291eb7.chunk.js",
+    "static/media/library.png": "/static/media/library.f058e501296181d8e019.png",
+    "static/media/popc.PNG": "/static/media/popc.775d07a40bae11496119.PNG",
+    "static/media/aswan.png": "/static/media/aswan.897d5ff1c3310c8823b2.png",
+    "static/media/idsc.png": "/static/media/idsc.8884b682c220585ccd33.png",
+    "static/media/tbv.png": "/static/media/tbv.a0bc59b072d74e873fdc.png",
+    "static/media/agriprice.png": "/static/media/agriprice.76f9061b8a8b5f62d465.png",
+    "static/media/kms.PNG": "/static/media/kms.2274d4c65f854de98f5c.PNG",
+    "index.html": "/index.html",
+    "main.56e6221f.css.map": "/static/css/main.56e6221f.css.map",
+    "main.79a4318a.js.map": "/static/js/main.79a4318a.js.map",
+    "787.68291eb7.chunk.js.map": "/static/js/787.68291eb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56e6221f.css",
-    "static/js/main.4f36320d.js"
+    "static/js/main.79a4318a.js"
   ]
 }
