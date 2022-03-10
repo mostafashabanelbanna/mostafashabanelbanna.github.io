@@ -6,13 +6,17 @@ import aswan from "./assets/img/aswan.png";
 import library from "./assets/img/library.png";
 import tbv from "./assets/img/tbv.png";
 import popc from "./assets/img/popc.PNG";
-import kms from "./assets/img/kms.PNG";
+// import kms from "./assets/img/kms.PNG";
+
+import kms from "./assets/video/kms.mp4";
+
 
 const webApps = [
   {
     name: "kms",
     url: "",
-    imgSrc: kms,
+    // imgSrc: kms,
+    videoSrc: kms,
     description:
       "knowledge management system, Helps facilitate searches for researchers in all sectors",
   },
@@ -65,17 +69,19 @@ const Projects = () => {
         return (
           <Row className="my-4">
             <Col lg={8}>
-              <a href={item.url} target="_blank">
+              <a href={item.url} target="_blank" rel="noreferrer">
                 <h3>{item.name}</h3>
               </a>
-              <img
+              {item.imgSrc ?  <img
                 style={{
                   boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
                   borderRadius: "8px",
                 }}
                 className="img-fluid my-3"
                 src={item.imgSrc}
-              />
+                alt={item.imgSrc}
+              /> : <video width="750" height="500" controls ><source src={item.videoSrc} type="video/mp4"/></video> }
+             <source src={item.videoSrc} type="video/mp4"/> 
               <p className="my-4">{item.description}</p>
             </Col>
           </Row>
