@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import agriprice from "../../assets/img/agriprice.png";
 import idsc from "../../assets/img/idsc.png";
 import aswan from "../../assets/img/aswan.png";
@@ -19,6 +19,7 @@ const webApps = [
     videoSrc: kms,
     description:
       "Knowledge Management System is a web application helps facilitate searches for researchers in all sectors.",
+    code: "https://github.com/mostafashabanelbanna/KMS",
     tech: "the application built with React JS Library for frontend, and ASP.NET Core for backend",
   },
   {
@@ -28,6 +29,7 @@ const webApps = [
     imgSrc: agriprice,
     description:
       "Agriprice is a Web Site that Shows monitored local and international commodities prices .",
+    code: "https://github.com/mostafashabanelbanna/AgriPrice",
     tech: "the application built with React JS Library for frontend, and ASP.NET Core for backend",
   },
   {
@@ -37,6 +39,7 @@ const webApps = [
     imgSrc: popc,
     description:
       "Poll Center is a Website that Studys the attitudes of Egyptian public opinion towards the issues raised on the internal scene, and directing them to the decision maker.",
+    code: "",
     tech: "the application built with ASP.NET MVC, using JavaScript, Jquery and ajax for frontend.",
   },
   {
@@ -46,6 +49,7 @@ const webApps = [
     imgSrc: idsc,
     description:
       "IDSC Website is The official platform for the online portal of Information and Decision Support Center.",
+    code: "",
     tech: "the application built with ASP.NET MVC, using JavaScript, Jquery and ajax for frontend.",
   },
   {
@@ -55,6 +59,7 @@ const webApps = [
     imgSrc: aswan,
     description:
       "Aswan Website is The official platform for the online Portal of Aswan governerate.",
+    code: "https://github.com/mostafashabanelbanna/Aswan",
     tech: "the application built with React JS Library for frontend, and ASP.NET Core for backend",
   },
   {
@@ -64,6 +69,7 @@ const webApps = [
     imgSrc: library,
     description:
       "Accessing the Library remotely to make its collections, experts, and services more readily discoverable and available for users.",
+    code: "",
     tech: "the application built with ASP.NET MVC, using JavaScript, Jquery and ajax for frontend.",
   },
   {
@@ -73,6 +79,7 @@ const webApps = [
     imgSrc: tbv,
     description:
       "Online recruitment application to make it easier to source candidates and conduct interviews as well as process the relevant paperwork required to hire and train candidates",
+    code: "",
     tech: "the application built with React JS Library for frontend, and PHP Core for backend",
   },
 ];
@@ -91,13 +98,32 @@ const Projects = () => {
             <Container>
               <Row className="justify-content-center" key={index}>
                 <Col lg={8}>
-                  <a
-                    href={item.url ? item.url : "#"}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <div className="d-flex justify-content-between">
                     <h3 style={{ textTransform: "uppercase" }}>{item.name}</h3>
-                  </a>
+                    <div>
+                      {item.url && (
+                        <a
+                          className="btn px-2 mx-1 btn-sm btn-outline-dark"
+                          href={item.url ? item.url : "#"}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Go Live
+                        </a>
+                      )}
+                      {item.code && (
+                        <a
+                          className="btn px-2 mx-1 btn-sm btn-outline-dark"
+                          href={item.code ? item.code : "#"}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Souce Code
+                        </a>
+                      )}
+                    </div>
+                  </div>
+
                   {item.imgSrc ? (
                     <img
                       style={{

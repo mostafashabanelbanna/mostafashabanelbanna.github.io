@@ -1,10 +1,10 @@
-.projects a{
+/* .projects a{
     color: #050505;
     text-decoration: none;
-}
-.projects a:hover{
+} */
+/* .projects a:hover{
     color: #050505;
-}
+} */
 .projects{
     scroll-snap-type: y mandatory;
     overflow-y: auto;
