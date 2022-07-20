@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import agriprice from "../../assets/img/agriprice.png";
+import weCare from "../../assets/img/wecare.png";
 import idsc from "../../assets/img/idsc.png";
 import aswan from "../../assets/img/aswan.png";
 import library from "../../assets/img/library.png";
@@ -11,6 +12,16 @@ import kms from "../../assets/video/kms.mp4";
 import "./projects.css";
 
 const webApps = [
+  {
+    bg: "rgb(242 242 244 / 20%)",
+    name: "WeCare",
+    url: "http://empf2019-001-site8.htempurl.com",
+    imgSrc: weCare,
+    description:
+      "WeCare is a service website that provides customer demands and satisfaction. those services are health, insurance, facility management, etc. ",
+    // code: "https://github.com/mostafashabanelbanna/weCare",
+    tech: "the application frontend built with React JS Library, Bootstrap, FullCalendar, etc",
+  },
   {
     bg: "rgb(47 45 82 / 20%)",
     name: "KMS",
