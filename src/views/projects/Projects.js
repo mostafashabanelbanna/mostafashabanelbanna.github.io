@@ -8,10 +8,20 @@ import library from "../../assets/img/library.png";
 import tbv from "../../assets/img/tbv.png";
 import popc from "../../assets/img/popc.PNG";
 import kms from "../../assets/video/kms.mp4";
+import trustline from "../../assets/img/trustline.png";
 
 import "./projects.css";
 
 const webApps = [
+  {
+    bg: "rgb(47 45 82 / 20%)",
+    name: "TrustLine",
+    url: "https://www.trustline.sa/",
+    imgSrc: trustline,
+    description:
+      "TrustLine is a crowdsourced cyber security platform specialized in providing bug bounty, penteration testing and VDP products",
+    tech: "the application frontend built with Next JS Framwork for SRR, Bootstrap, React Spring, etc",
+  },
   {
     bg: "rgb(242 242 244 / 20%)",
     name: "WeCare",
@@ -119,7 +129,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          Go Live
+                          Preview
                         </a>
                       )}
                       {item.code && (
