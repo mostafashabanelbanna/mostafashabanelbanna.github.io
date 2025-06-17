@@ -18,7 +18,7 @@ export const About = () => (
             transition={{ duration: 0.5, delay: 0.6 }}
             className="text-lg secondary-text mb-8 max-w-2xl mx-auto"
           >
-            I'm a Frontend Engineer crafting modern, user-centric web
+            I'm a Frontend Developer crafting modern, user-centric web
             experiences with clean code and pixel-perfect design. With a strong
             foundation in React, Next.js, and Tailwind CSS, I build fast,
             responsive, and accessible interfaces that not only look great—but
