@@ -1,23 +1,25 @@
+import { summary } from "framer-motion/client";
 import React from "react";
 
 const experiences = [
   {
     title: "Front-End Developer",
-    company: "Trusrline",
-    date: "2022 - Present",
+    company: "Nua Security",
+    date: "2025 - Present",
+    summary: `Built responsive landing pages and contributed to AI-driven cybersecurity tools using Next.js, Tailwind CSS, and LangGraph. Focused on frontend performance, authentication, and integration of CopilotKit, NextAuth, and Keycloak for secure, modern user experiences.`,
     achievements: [
       "Developed high-quality front-end code adhering to best practices.",
       "Enhanced SEO performance, resulting in improved search engine rankings.",
       "Recommended and implemented new features to improve functionality and usability.",
     ],
     tools: [
-      "javascript",
+      "Next.js",
       "typescript",
-      "react",
-      "nextjs",
-      "tailwindcss",
-      "html",
-      "css",
+      "Tailwind CSS",
+      "LangGraph",
+      "CopilotKit",
+      "NextAuth",
+      "Keycloak",
     ],
   },
   {
@@ -99,11 +101,16 @@ const Experience = () => (
                       ></path>
                     </svg>
                   </div>
-                  <ul className="list-disc list-inside ml-4 secondary-text text-sm leading-normal mb-4">
+                  <div>
+                    <p className="text-sm leading-normal mb-4 secondary-text">
+                      {exp.summary}
+                    </p>
+                  </div>
+                  {/* <ul className="list-disc list-inside ml-4 secondary-text text-sm leading-normal mb-4">
                     {exp.achievements.map((ach, i) => (
                       <li key={i}>{ach}</li>
                     ))}
-                  </ul>
+                  </ul> */}
                   {exp.tools && (
                     <div className="flex flex-wrap gap-2">
                       {exp.tools.map((tool, i) => (
