@@ -5,6 +5,7 @@ const experiences = [
   {
     title: "Front-End Developer",
     company: "Nua Security",
+    companyUrl: "https://nuasec.netlify.app/",
     date: "2025 - Present",
     summary: `Built responsive landing pages and contributed to AI-driven cybersecurity tools using Next.js, Tailwind CSS, and LangGraph. Focused on frontend performance, authentication, and integration of CopilotKit, NextAuth, and Keycloak for secure, modern user experiences.`,
     achievements: [
@@ -24,32 +25,56 @@ const experiences = [
   },
   {
     title: "Front-End Developer",
-    company: "Information and Decision Support Center",
+    company: "Trustline",
+    companyUrl: "https://www.trustline.sa/",
+    date: "2022 - 2025",
+    summary: `Developed and maintained the Trustline platform using Next.js, Redux, and Bootstrap. Built dashboards, implemented authentication, optimized SEO, and integrated analytics. Focused on delivering high-performance, user-friendly experiences with clean, tested, and scalable code`,
+    achievements: [
+      "Developed high-quality front-end code adhering to best practices.",
+      "Enhanced SEO performance, resulting in improved search engine rankings.",
+      "Recommended and implemented new features to improve functionality and usability.",
+    ],
+    tools: [
+      "Next.js",
+      "Redux",
+      "Bootstrap",
+      "React",
+      "JavaScript",
+      "TypeScript",
+    ],
+  },
+  {
+    title: "Front-End Developer",
+    company: "IDSC",
+    companyUrl: "https://idsc.gov.eg/",
     date: "2020 – 2022",
+    summary: `Developed responsive, accessible web applications and dashboards using JavaScript, jQuery, React, and Bootstrap. Contributed to ERP and knowledge systems while translating UI/UX designs into clean, userfriendly interfaces with strong focus on usability and data visualization.`,
     achievements: [
       "Translated UI/UX designs into fully functional front-end applications.",
       "Created reusable code and libraries to streamline development.",
       "Designed and developed data visualization components.",
     ],
     tools: [
-      "javascript",
-      "typescript",
       "react",
       "nextjs",
-      "tailwindcss",
-      "html",
-      "css",
+      "jQuery",
+      "Bootstrap",
+      "typescript",
+      "javascript",
     ],
   },
   {
-    title: "Front-End Developer",
-    company: "",
+    title: "Frontend Intern",
+    company: "Teqneia",
+    companyUrl: "https://teqneia.com/",
     date: "2019 – 2020",
+    summary: `Completed a 6-month internship contributing to the development of the company’s main platform and a recruitment system. Gained hands-on experience collaborating with the engineering team on realworld frontend projects and UI implementation.`,
     achievements: [
       "Designed and developed responsive web applications for multiple platforms.",
       "Maintained and enhanced legacy systems to improve performance.",
       "Ensured cross-device compatibility and stability.",
     ],
+    tools: ["React", "JavaScript", "jQuery", "Bootstrap"],
   },
 ];
 
@@ -63,9 +88,7 @@ const Experience = () => (
             className="group relative transition-all duration-300 hover:bg-[color:var(--section-bg)] hover:border-[#233554] rounded-lg p-4 border border-transparent"
           >
             <a
-              href={
-                exp.company ? `https://${exp.company.toLowerCase()}.com` : "#"
-              }
+              href={exp.companyUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="block"

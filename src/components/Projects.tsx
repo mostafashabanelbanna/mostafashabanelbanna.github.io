@@ -3,36 +3,46 @@ import Link from "next/link";
 
 const projects = [
   {
-    name: "Trustline Platform",
-    year: "2022",
+    name: "Nua ",
+    year: "2025",
     description:
-      "Official website for the 2021 FIE Cairo Fencing World Championships, featuring event schedules, results, and live updates.",
-    link: "trustline_platform.png", // Replace with actual link if available
-    screenshot: "/images/trustline_platform.png",
+      "Nua builds AI-driven digital cybersecurity employees capable of autonomously executing end-to-end security tasks—from detection and analysis to remediation—reducing reliance on human talent. It combines expert-level decision-making with machine-speed efficiency to monitor systems continuously, eliminate alert fatigue, and close the cybersecurity skills gap",
+    link: "https://nuasec.netlify.app/",
+    screenshot: "/images/projects/nua_platform.png",
     technologies: [
-      "react",
-      "nextjs",
+      "Next.js",
       "typescript",
-      "tailwindcss",
-      "nodejs",
-      "mongodb",
+      "Tailwind CSS",
+      "LangGraph",
+      "CopilotKit",
+      "NextAuth",
+      "Keycloak",
     ],
   },
   {
-    name: "Cairo Opera House Official Website",
+    name: "Trustline Platform",
+    year: "2022 - 2024",
+    description:
+      "Trustline is a SaaS cybersecurity platform that combines crowdsourced ethical hacking, bug-bounty, PTaaS, VDP, and code reviews into one solution. It provides real-time vulnerability insights, triage support, compliance workflows, and a global hacker community to protect web, mobile, API, and network assets.",
+    link: "https://www.trustline.sa/",
+    screenshot: "/images/projects/trustline_platform.png",
+    technologies: [
+      "Next.js",
+      "Redux",
+      "Bootstrap",
+      "React",
+      "JavaScript",
+      "TypeScript",
+    ],
+  },
+  {
+    name: "WeCare",
     year: "2022",
     description:
-      "Redesigned and developed the official website for Cairo Opera House, focusing on accessibility, performance, and user experience.",
-    link: "#", // Replace with actual link if available
-    screenshot: "/images/opera-website.jpg", // Add your screenshot path
-    technologies: [
-      "react",
-      "nextjs",
-      "typescript",
-      "tailwindcss",
-      "nodejs",
-      "postgresql",
-    ],
+      "WeCare is a service and e-commerce web application offering customer-focused solutions in health, insurance, and facility management. The frontend was built using React.js, Redux, Bootstrap, and FullCalendar to deliver a responsive and user-friendly experience. ",
+    link: "http://empf2019-001-site8.htempurl.com/",
+    screenshot: "/images/projects/we_care.png",
+    technologies: ["Redux", "Bootstrap", "React", "JavaScript", "FullCalendar"],
   },
 ];
 

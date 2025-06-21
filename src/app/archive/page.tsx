@@ -3,34 +3,55 @@ import Link from "next/link";
 
 const archiveProjects = [
   {
-    year: "2023",
+    year: "2025",
+    name: "Nua",
+    madeAt: "Nua",
+    builtWith: [
+      "Next.js",
+      "typescript",
+      "Tailwind CSS",
+      "LangGraph",
+      "CopilotKit",
+      "NextAuth",
+      "Keycloak",
+    ],
+    link: "https://nuasec.netlify.app/",
+  },
+  {
+    year: "2022 - 2024",
     name: "Trustline Platform",
     madeAt: "Trustline",
     builtWith: [
-      "react",
-      "nextjs",
-      "typescript",
-      "tailwindcss",
-      "nodejs",
-      "mongodb",
+      "Next.js",
+      "Redux",
+      "Bootstrap",
+      "React",
+      "JavaScript",
+      "TypeScript",
     ],
-    link: "https://trustline.com",
+    link: "https://www.trustline.sa/",
+  },
+  {
+    year: "2021",
+    name: "Agriprice",
+    madeAt: "IDSC",
+    builtWith: ["React", "Redux", "Bootstrap", "TypeScript"],
+    link: "http://empf2019-001-site8.htempurl.com/",
+  },
+  {
+    year: "2021",
+    name: "IDSC Website",
+    madeAt: "IDSC",
+    builtWith: ["javascript", "jquery", "Bootstrap", ".netcore"],
+    link: "https://idsc.gov.eg/",
   },
   {
     year: "2022",
-    name: "Cairo Opera House Website",
-    madeAt: "Information and Decision Support Center",
-    builtWith: [
-      "react",
-      "nextjs",
-      "typescript",
-      "tailwindcss",
-      "nodejs",
-      "postgresql",
-    ],
-    link: "https://cairoopera.org",
+    name: "WeCare",
+    madeAt: "Freelance",
+    builtWith: ["React", "Redux", "Bootstrap", "JavaScript", "FullCalendar"],
+    link: "http://empf2019-001-site8.htempurl.com/",
   },
-  // Add more projects as needed
 ];
 
 export default function Archive() {
