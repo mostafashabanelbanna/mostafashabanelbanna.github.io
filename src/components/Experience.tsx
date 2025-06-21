@@ -45,7 +45,7 @@ const experiences = [
   },
   {
     title: "Front-End Developer",
-    company: "Information and Decision Support Center",
+    company: "IDSC",
     companyUrl: "https://idsc.gov.eg/",
     date: "2020 – 2022",
     summary: `Developed responsive, accessible web applications and dashboards using JavaScript, jQuery, React, and Bootstrap. Contributed to ERP and knowledge systems while translating UI/UX designs into clean, userfriendly interfaces with strong focus on usability and data visualization.`,
