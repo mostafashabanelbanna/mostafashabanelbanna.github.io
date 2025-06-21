@@ -135,7 +135,7 @@ const Sidebar = () => {
             className="flex space-x-4 mt-8"
           >
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/mostafashabanelbanna/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[color:var(--secondary-text)] hover:text-[color:var(--accent)] transition-colors duration-300"
@@ -143,7 +143,7 @@ const Sidebar = () => {
               <FiGithub className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/mostafa-shaban-elbanna/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[color:var(--secondary-text)] hover:text-[color:var(--accent)] transition-colors duration-300"
