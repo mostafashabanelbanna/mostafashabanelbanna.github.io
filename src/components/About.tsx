@@ -18,12 +18,13 @@ export const About = () => (
             transition={{ duration: 0.5, delay: 0.6 }}
             className="text-lg secondary-text mb-8 max-w-2xl mx-auto"
           >
-            I'm a Frontend Developer crafting modern, user-centric web
-            experiences with clean code and pixel-perfect design. With a strong
-            foundation in React, Next.js, and Tailwind CSS, I build fast,
-            responsive, and accessible interfaces that not only look great—but
-            feel intuitive to use. I'm passionate about turning complex ideas
-            into seamless, impactful digital experiences.
+            I'm a Senior Frontend Developer with 5+ years of experience
+            specializing in React, Next.js, and Tailwind CSS. I build fast,
+            scalable, and accessible web applications with a strong focus on
+            performance and user experience. I actively leverage AI-powered
+            tools like Cursor and design intelligent workflows by building
+            agents using LangGraph to enhance development speed and product
+            capabilities
           </motion.p>
         </motion.div>
       </div>
