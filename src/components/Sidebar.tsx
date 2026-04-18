@@ -84,7 +84,7 @@ const Sidebar = () => {
               Mostafa Elbanna
             </h1>
             <h2 className="text-xl mb-12 secondary-text text-slate-200">
-              Frontend Developer
+              Senior Frontend Developer
             </h2>
           </div>
 

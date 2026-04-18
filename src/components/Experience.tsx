@@ -3,7 +3,7 @@ import React from "react";
 
 const experiences = [
   {
-    title: "Front-End Developer",
+    title: "Senior Front-End Developer",
     company: "Nua Security",
     companyUrl: "https://nuasec.netlify.app/",
     date: "2025 - Present",
@@ -24,7 +24,7 @@ const experiences = [
     ],
   },
   {
-    title: "Front-End Developer",
+    title: "Mid-level Front-End Developer",
     company: "Trustline",
     companyUrl: "https://www.trustline.sa/",
     date: "2022 - 2025",
